@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "549589264289",
+    "firebase_url": "https://kitaablo-51158.firebaseio.com",
+    "project_id": "kitaablo-51158",
+    "storage_bucket": "kitaablo-51158.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549589264289:android:3be49ad241fd0e95",
+        "android_client_info": {
+          "package_name": "com.example.kitaablo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549589264289-glejvhdrjh0giv1tbt1e8q4mvcsumujb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kitaablo",
+            "certificate_hash": "7912efec86bfc9acdb7b05a68f67b6657db9adde"
+          }
+        },
+        {
+          "client_id": "549589264289-julq545eenq99otbvgqmd14l9rkrdptb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbAErnWAXzVZwDzViYzqJNQfGt9Y5lnyI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549589264289-julq545eenq99otbvgqmd14l9rkrdptb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

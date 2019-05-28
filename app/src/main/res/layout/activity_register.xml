@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_backgroung">
+    <ImageButton
+        android:id="@+id/back_register"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:src="@mipmap/back_foreground"
+        android:layout_margin="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="80dp"
+        android:textSize="26dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:padding="4dp">
+
+            <ImageView
+                style="@style/Icon"
+                android:src="@drawable/user_foreground"/>
+            <EditText
+                android:id="@+id/usernameEditText"
+                style="@style/EditText"
+                android:hint="Name" />
+            <TextView
+                style="@style/Icon"
+                android:text="!"
+                android:textSize="26sp"
+                android:textColor="@color/button_click"
+                android:gravity="center"
+                android:clickable="true"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/exclamtion1"
+            android:layout_height="35dp"
+            android:layout_width="35dp"
+            android:text="!"
+            android:textSize="26sp"
+            android:textColor="@color/exclamation_clicl"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="25dp"
+            android:paddingTop="4dp"/>
+        <TextView
+            android:id="@+id/exclamtion1detail"
+            style="@style/Exclamation"
+            android:layout_marginTop="14dp"
+            android:text="Mandatory Field"/>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:padding="4dp">
+
+            <ImageView
+                style="@style/Icon"
+                android:src="@drawable/email_foreground"
+                android:background="#1F000000"/>
+            <EditText
+                android:id="@+id/emailEditText"
+                style="@style/EditText"
+                android:inputType="textEmailAddress"
+                android:hint="Email" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/exclamtion2"
+            android:layout_height="35dp"
+            android:layout_width="35dp"
+            android:text="!"
+            android:textSize="26sp"
+            android:textColor="@color/exclamation_clicl"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="12dp"
+            android:paddingTop="4dp"/>
+        <TextView
+            android:id="@+id/exclamtion2detail"
+            style="@style/Exclamation"
+            android:text="Invalid Address"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:padding="4dp">
+
+            <ImageView
+                style="@style/Icon"
+                android:src="@drawable/lock_foreground"/>
+            <EditText
+                android:id="@+id/passwordEditText"
+                style="@style/EditText"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/exclamtion3"
+            android:layout_height="35dp"
+            android:layout_width="35dp"
+            android:text="!"
+            android:textSize="26sp"
+            android:textColor="@color/exclamation_clicl"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="12dp"
+            android:paddingTop="4dp"/>
+        <TextView
+            android:id="@+id/exclamtion3detail"
+            style="@style/Exclamation"
+            android:text="Length of Password Should exceed 6"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="58dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:padding="4dp">
+
+            <ImageView
+                style="@style/Icon"
+                android:src="@drawable/lock_foreground" />
+            <EditText
+                android:id="@+id/confirmPasswordEditText"
+                style="@style/EditText"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/exclamtion4"
+            android:layout_height="35dp"
+            android:layout_width="35dp"
+            android:text="!"
+            android:textSize="26sp"
+            android:textColor="@color/exclamation_clicl"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="12dp"
+            android:paddingTop="4dp"/>
+        <TextView
+            android:id="@+id/exclamtion4detail"
+            style="@style/Exclamation"
+            android:text="Password Do not Match"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <ImageView
+            style="@style/Icon"
+            android:src="@drawable/user_foreground"/>
+        <TextView
+            android:id="@+id/male"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:text="Male"
+            android:textSize="21sp"
+            android:textColor="#68FFFFFF"
+            android:gravity="center|center_vertical"
+            android:background="#1F000000"
+            android:clickable="true"
+            android:paddingLeft="4dp"/>
+        <TextView
+            android:id="@+id/female"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:text="Female"
+            android:textSize="21sp"
+            android:textColor="#68FFFFFF"
+            android:gravity="center|center_vertical"
+            android:background="#1F000000"
+            android:paddingLeft="4dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/ripple_button"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Registered?Log In"
+        android:layout_marginTop="11dp"
+        android:layout_gravity="center"
+        android:textColor="@color/button_click"
+        android:clickable="true"/>
+
+</LinearLayout>

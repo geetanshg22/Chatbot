@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#B90E335A</item>
+        <item name="colorPrimaryDark">#B90E335A</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="EditText">
+        <item name="android:textColor">#ADFFFFFF</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">240dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">#1F000000</item>
+        <item name="android:textColorHint">#68FFFFFF</item>
+        <item name="android:paddingLeft">4dp</item>
+    </style>
+
+    <style name="Icon">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">#1F000000</item>
+    </style>
+
+    <style name="Exclamation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:background">#000000</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:visibility">gone</item>
+
+    </style>
+
+</resources>

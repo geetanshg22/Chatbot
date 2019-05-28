@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_backgroung">
+    <ImageButton
+        android:id="@+id/back_login"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:src="@mipmap/back_foreground"
+        android:layout_margin="12dp"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:src="@drawable/kitaablologo"
+        android:layout_marginTop="88dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <ImageView
+            style="@style/Icon"
+            android:src="@drawable/user_foreground"
+            />
+
+        <EditText
+            android:id="@+id/user_emailEditTextLogin"
+            android:hint="Email"
+            style="@style/EditText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="4dp">
+
+        <ImageView
+            style="@style/Icon"
+            android:src="@drawable/lock_foreground"/>
+
+        <EditText
+            android:id="@+id/passwordEditTextLogin"
+            style="@style/EditText"
+            android:inputType="textPassword"
+            android:hint="Password" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ripple_button"
+        android:text="Login"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/registernow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Register Now"
+        android:layout_marginTop="11dp"
+        android:layout_gravity="center"
+        android:textColor="@color/button_click"
+        android:clickable="true"/>
+    <ProgressBar
+        android:id="@+id/login_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:visibility="gone"/>
+
+</LinearLayout>
